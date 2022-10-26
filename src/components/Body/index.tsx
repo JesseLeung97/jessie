@@ -5,7 +5,7 @@ import { Cog } from "../../assets/images/Cog";
 import { Github } from "../../assets/images/Github";
 import { Email } from "../../assets/images/Email";
 import { useLanguage } from "../LanguageManager";
-import { useEffect, useState } from "preact/hooks";
+import { useState } from "preact/hooks";
 import { Resume } from "../../assets/images/Resume";
 import { About } from "../../assets/images/About";
 import { jp } from "../LanguageManager/translation";

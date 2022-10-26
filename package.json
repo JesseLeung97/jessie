@@ -10,7 +10,8 @@
     "deploy": "tsc && vite build && aws s3 sync ./dist s3://jesseleung.com"
   },
   "dependencies": {
-    "preact": "^10.9.0"
+    "preact": "^10.9.0",
+    "wouter": "^2.8.0-alpha.2"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.3.0",

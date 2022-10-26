@@ -3,7 +3,9 @@ import japanese from "../../translations/jp.json";
 
 export type TTranslation = {
     siteTitle: string,
-    name: string,
+    year: string,
+    firstName: string,
+    lastName: string,
     job: string,
     location: string,
     github: string,

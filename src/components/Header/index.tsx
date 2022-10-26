@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <header class={classes.header_container}>
             <ToggleButton toggleName={"themeToggle"} inputState={theme === "dark" ? "icon_1" : "icon_2"} iconToggle_1={sunIcon} iconToggle_2={moonIcon} toggleFunction={toggleTheme} />
-            <ToggleButton toggleName={"languageToggle"} iconToggle_1={usFlag} iconToggle_2={jpFlag} toggleFunction={toggleLanguage} />
+            <ToggleButton toggleName={"languageToggle"} iconToggle_1={jpFlag} iconToggle_2={usFlag} toggleFunction={toggleLanguage} />
         </header>
     );
 }

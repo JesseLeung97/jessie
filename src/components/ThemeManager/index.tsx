@@ -16,7 +16,7 @@ const useTheme = (): TThemeContext => {
 
 const ThemeManager: FunctionalComponent = ({ children }) => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const [colorTheme, setColorTheme] = useState<TTheme>("dark");
+    const [colorTheme, setColorTheme] = useState<TTheme>(prefersDark ? "dark" : "light");
 
 
     const switchTheme = () => {
@@ -27,8 +27,7 @@ const ThemeManager: FunctionalComponent = ({ children }) => {
 
     useLayoutEffect(() => {
         document.documentElement.classList.add(prefersDark ? darkTheme.dark_theme : lightTheme.light_theme);
-        setColorTheme(prefersDark ? "dark" : "light");
-    }, [prefersDark])
+    }, [prefersDark]);
 
     return (
         <ThemeContext.Provider value={{theme: colorTheme, toggleTheme: switchTheme}}>
