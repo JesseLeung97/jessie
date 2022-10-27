@@ -1,5 +1,6 @@
 {
     "siteTitle": "Jesse Leung - Software Engineer",
+    "changeLanguage": "日本語",
     "year": "2022",
     "firstName": "jesse",
     "lastName": "leung",
@@ -9,6 +10,37 @@
     "resume": "resume",
     "aboutMe": "about",
     "email": "email",
-    "aboutTitle": "Hi, I'm Jesse",
-    "aboutContent": "I'm a Chinese American software engineer based out of Tokyo, Japan.  In my career I've contributed to a number of different projects including matchmaking apps and several iOS games.  I also enjoy learning Rust and building websites for friends and family.  Outside of work, I love cycling, cooking, and playing with my poodle, Seulgi.  I'm always looking for new opportunities to grow as a software engineer.  If you have a code-y, math-y project in mind, please reach out!"
+    "aboutTitle": "About",
+    "aboutContent": [
+        "My name is Jesse Leung.  I'm a Chinese American software engineer based out of Tokyo, Japan.  In my career I've designed and contributed to the core systems of numerous large scale projects including matchmaking websites and iOS games.  ",
+        "I also love coding and enjoy building projects during my free time.  I'm currently learning both Rust and Python and using them to build a locality sensitive hashing algorithm and an automated art generator based on current events.  ",
+        "Outside of work, I love cycling, cooking, and playing with my poodle, Seulgi.  I'm always looking for new opportunities to grow as a software engineer.  If you have a code-y, math-y (or Rust based) project in mind, please reach out!"
+    ],
+    "resumePage": {
+        "summary": "A deeply driven software engineer seeking to learn from experienced mentors, contribute to growing projects, and assume greater leadership responsibility within my team.",
+        "experience": {
+            "title": "experience",
+            "jobTitle": "software engineer",
+            "companyName": "steins inc.",
+            "date": "dec 2020 - present",
+            "techStackTitle": "tech stack:",
+            "projects": {
+                "title": "selected projects",
+                "descriptions": [
+                    {
+                        "title": "rhythm game (concept, prototype)",
+                        "bullets": [
+                            "Expertly designing and implementing input system, event manager, and score manager to calculate and broadcast information about score, tap timing, and other core game functionality.",
+                            "Diligently designing and building the song layout functionality to visually represent a song’s Json data.",
+                            "Carefully dapting a Midi to Json converter which translated song files from the audio team into game-usable data."
+                        ],
+                        "techStack": "C#, Unity, UniRX, DOTween, .Net"
+                    }
+                ]
+            }
+        },
+        "education": "education",
+        "technicalSkills": "technical skills",
+        "personalProjects": "personal projects"
+    }
 }

@@ -6,6 +6,8 @@ import { LandingPageNew } from "./components/pages/LandingPageNew";
 import { AboutPage } from "./components/pages/AboutPage";
 import { WritingsPage } from "./components/pages/WritingsPage";
 import { TestArticle } from "./components/Articles/2022_10_26_TestArticle";
+import { LanguageToggle } from "./components/LanguageToggle";
+import { ResumePage } from "./components/pages/ResumePage";
 
 export function App() {
 	return (
@@ -17,8 +19,10 @@ export function App() {
 					<Body />
 					</ThemeManager>
 				}
+				<LanguageToggle />
 				<LandingPageNew />
 				<AboutPage />
+				<ResumePage />
 				<WritingsPage />
 			</LanguageManager>
 		</>

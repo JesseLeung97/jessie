@@ -1,0 +1,17 @@
+.button_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+}
+.home_button {
+    text-transform: uppercase;
+    border-bottom: 1px solid #392E26;
+    font-weight: 700;
+    transition: all 0.2s ease-out;
+}
+.home_button:hover {
+    color: #FF0044;
+    cursor: pointer;
+    border-bottom: 1px solid #FF0044;
+}

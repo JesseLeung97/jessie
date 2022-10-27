@@ -1,5 +1,6 @@
 {
     "siteTitle": "リャン　ジェシー - エンジンエア",
+    "changeLanguage": "english",
     "year": "2022",
     "firstName": "リャン　ジェシー",
     "lastName": "",
@@ -10,5 +11,34 @@
     "aboutMe": "私は？",
     "email": "メール",
     "aboutTitle": "こんにちは",
-    "aboutContent": "東京在住、アメリカ出身のソフトウェアエンジニアです。今まで、婚活アプリやスマホ用のゲーム等、様々なプロジェクトに参加しました。仕事以外でも、Rustを学ぶことや知り合いの為にサイトを作ることが好きです。コードをしていない時は、サイクリングをしたり、料理をしたり、愛犬のスルギと遊んだりしています。ソフトウェアエンジニアとして常に成長できる機会を求めているので、コードに関してや、数学的なプロジェクトのアイディアがあれば、是非ご連絡ください！"
+    "aboutContent": [
+        "東京在住、アメリカ出身のソフトウェアエンジニアです。今まで、婚活アプリやスマホ用のゲーム等、様々なプロジェクトに参加しました。仕事以外でも、Rustを学ぶことや知り合いの為にサイトを作ることが好きです。コードをしていない時は、サイクリングをしたり、料理をしたり、愛犬のスルギと遊んだりしています。ソフトウェアエンジニアとして常に成長できる機会を求めているので、コードに関してや、数学的なプロジェクトのアイディアがあれば、是非ご連絡ください！"
+    ],
+    "resumePage": {
+        "summary": "",
+        "experience": {
+            "title": "experience",
+            "jobTitle": "software engineer",
+            "companyName": "steins inc.",
+            "date": "dec 2020 - present",
+            "techStackTitle": "tech stack",
+            "projects": {
+                "title": "selected projects",
+                "descriptions": [
+                    {
+                        "title": "rhythm game (concept, prototype)",
+                        "bullets": [
+                            "Expertly designing and implementing input system, event manager, and score manager to calculate and broadcast information about score, tap timing, and other core game functionality.",
+                            "Diligently designing and building the song layout functionality to visually represent a song’s Json data.",
+                            "Carefully dapting a Midi to Json converter which translated song files from the audio team into game-usable data."
+                        ],
+                        "techStack": ""
+                    }
+                ]
+            }
+        },
+        "education": "education",
+        "technicalSkills": "technical skills",
+        "personalProjects": "personal projects"
+    }
 } 

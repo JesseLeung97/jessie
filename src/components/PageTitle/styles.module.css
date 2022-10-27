@@ -1,0 +1,12 @@
+.title_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 0;
+}
+.title_inner {
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #392E26;
+    text-transform: uppercase;
+}

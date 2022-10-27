@@ -1,0 +1,10 @@
+.job_title_container {
+    text-transform: capitalize;
+}
+.job_title {
+    font-weight: 700;
+}
+.job_info_container {
+    display: flex;
+    justify-content: space-between;
+}

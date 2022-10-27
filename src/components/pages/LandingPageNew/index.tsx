@@ -24,7 +24,7 @@ const LandingPageNew = () => {
                     <VerticalText>{language.location}</VerticalText>
                     <VerticalText><a href="https://github.com/JesseLeung97" target="_blank">{language.github}</a></VerticalText>
                     <VerticalText><a href={`${window.location}about`}>{language.aboutMe}</a></VerticalText>
-                    <VerticalText><a href="../../../JesseLeung_Resume_2022.pdf" target="_blank">{language.resume}</a></VerticalText>
+                    <VerticalText><a href={`${window.location}resume`}>{language.resume}</a></VerticalText>
                     <VerticalText><a href="mailto:jessetleung@gmail.com" target="_blank">{language.email}</a></VerticalText>
                 </div>
             </div>

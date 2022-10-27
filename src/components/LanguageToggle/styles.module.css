@@ -1,0 +1,16 @@
+.language_toggle_container {
+    position: fixed;
+    top: 24px;
+    right: 36px;
+}
+.language_toggle {
+    text-transform: uppercase;
+    border-bottom: 1px solid #392E26;
+    transition: 0.2s all ease-out;
+    font-size: 14px;
+}
+.language_toggle:hover {
+    cursor: pointer;
+    color: #FF0044;
+    border-bottom: 1px solid #FF0044;
+}
