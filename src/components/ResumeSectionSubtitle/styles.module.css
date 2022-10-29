@@ -1,0 +1,12 @@
+.title_container {
+    margin: 12px 0;
+}
+.title {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.info_container {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}

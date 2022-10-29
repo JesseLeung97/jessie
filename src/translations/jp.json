@@ -32,13 +32,133 @@
                             "Diligently designing and building the song layout functionality to visually represent a song’s Json data.",
                             "Carefully dapting a Midi to Json converter which translated song files from the audio team into game-usable data."
                         ],
-                        "techStack": ""
+                        "techStack": [""]
+                    },
+                    {
+                        "title": "girls band cry (concept, prototype)",
+                        "bullets": [
+                            "Expertly designing and implementing input system, event manager, and score manager to calculate and broadcast information about score, tap timing, and other core game functionality.",
+                            "Diligently designing and building the song layout functionality to visually represent a song’s Json data.",
+                            "Carefully dapting a Midi to Json converter which translated song files from the audio team into game-usable data."
+                        ],
+                        "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
+                    },
+                    {
+                        "title": "react application for aflac",
+                        "bullets": [
+                            "Developed responsive UI using the Atomic Components philosophy to ensure code and corresponding work was not repeated.",
+                            "Mentored coworkers who had not used React about React life cycles, component structure, and code styles.",
+                            "Integrated complex APIs using React Hooks in Functional Components"
+                        ],
+                        "techStack": ["React", "TypeScript", "Jest"]
                     }
                 ]
             }
         },
-        "education": "education",
-        "technicalSkills": "technical skills",
-        "personalProjects": "personal projects"
+        "education": {
+            "title": "education",
+            "schools": [
+                {
+                    "schoolName": "university of massachusetts amherst",
+                    "degree": "b.s. computational mathematics",
+                    "minor": "japanese",
+                    "date": "Sep 2016 - Aug 2020",
+                    "bullets": [
+                        "Member of the Commonwealth Honors College",
+                        "division 1 mens lacrosse (2016 - 2018)"
+                    ]
+                },
+                {
+                    "schoolName": "sophia university",
+                    "degree": "exchange student",
+                    "minor": "",
+                    "date": "Sep 2016 - Aug 2020",
+                    "bullets": []
+                }
+            ]
+        },
+        "technicalSkills": {
+            "title": "technical skills",
+            "skills": [
+                {
+                    "skillName": "",
+                    "skills": [""]
+                }
+            ]
+        },
+        "personalProjects": {
+            "title": "personal projects",
+            "descriptions": [
+                {
+                    "title": "girls band cry (concept, prototype)",
+                    "link": "",
+                    "bullets": [
+                        "Expertly designing and implementing input system, event manager, and score manager to calculate and broadcast information about score, tap timing, and other core game functionality.",
+                        "Diligently designing and building the song layout functionality to visually represent a song’s Json data.",
+                        "Carefully dapting a Midi to Json converter which translated song files from the audio team into game-usable data."
+                    ],
+                    "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
+                }
+            ]
+        }
+    },
+    "projectsPage": {
+        "summary": "",
+        "personal": {
+            "title": "personal projects",
+            "descriptions": [
+                {
+                    "title": "react application for aflac",
+                    "link": "",
+                    "bullets": [
+                        "Developed responsive UI using the Atomic Components philosophy to ensure code and corresponding work was not repeated.",
+                        "Mentored coworkers who had not used React about React life cycles, component structure, and code styles.",
+                        "Integrated complex APIs using React Hooks in Functional Components"
+                    ],
+                    "techStack": ["React", "TypeScript", "Jest"]
+                }
+            ]
+        },
+        "work": {
+            "title": "work related projects",
+            "descriptions": [
+                {
+                    "title": "girls band cry (concept, prototype)",
+                    "bullets": [
+                        "A concept and prototype for an upcoming rhythm rpg game built in C# and Unity."
+                    ],
+                    "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
+                },
+                {
+                    "title": "otakon and sibling sites",
+                    "bullets": [
+                        "A family of niche matchmaking services built in Ruby and Rails and hosted on AWS."
+                    ],
+                    "techStack": ["Ruby on Rails", "JQuery", "PostgreSQL"]
+                },
+                {
+                    "title": "react application for aflac",
+                    "bullets": [
+                        "A suite of complex forms built with React and TypeScript and structured following atomic design patterns."
+                    ],
+                    "techStack": ["React", "TypeScript", "Jest"]
+                },
+                {
+                    "title": "gundam: iron blooded orphans",
+                    "bullets": [
+                        "A recently released iOS rpg, gacha, and battle game built in C# and Unity."
+                    ],
+                    "techStack": ["C#", "Unity", "UniRX", "DOTween", "MessagePack"]
+                }
+            ]
+        }
+    },
+    "contactPage": {
+        "title": "contact",
+        "form": {
+            "email": "email",
+            "message": "message",
+            "submit": "send"
+        }
     }
 } 

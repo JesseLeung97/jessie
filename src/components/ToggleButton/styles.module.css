@@ -13,7 +13,7 @@
     background: inherit;
     display: grid;
     place-items: center;
-    transition: 0.3s background ease-out;
+    transition: 0.3s background;
 }
 .toggle_button:hover {
     cursor: pointer;

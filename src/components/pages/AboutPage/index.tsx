@@ -7,17 +7,16 @@ import { PageTitle } from "../../PageTitle";
 
 const AboutPage = () => {
     const { language } = useLanguage();
-    const [location] = useLocation();
+    const [ location ] = useLocation();
     if(location !== "/about") return null;
 
     return (
         <ContentWrapper>
-            <section>
+            <section class={classes.about_page}>
                 <PageTitle title={language.aboutTitle} />
                 <p class={classes.about_text_p}>{language.aboutContent}</p>
-                
+                <HomeButton />
             </section>
-            <HomeButton />
         </ContentWrapper>
     );
 }

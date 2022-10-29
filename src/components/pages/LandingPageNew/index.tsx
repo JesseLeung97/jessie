@@ -3,14 +3,15 @@ import { VerticalText } from "../../VerticalText";
 import classes from "./styles.module.css";
 import { useLocation } from "wouter/preact";
 import { useLanguage } from "../../LanguageManager";
+import { ContentWrapper } from "../../ContentWrapper";
 
 const LandingPageNew = () => {
     const { language } = useLanguage();
-    const [location] = useLocation();
+    const [ location ] = useLocation();
     if (location !== "/") return null;
 
     const goToPage = (pageName: string) => {
-        window.location.pathname = `/${pageName}`;
+        window.history.pushState({}, "", `/${pageName}`);
     }
 
     return (
@@ -22,10 +23,10 @@ const LandingPageNew = () => {
                     <VerticalText isRed={true}>{language.lastName}</VerticalText>
                     <VerticalText>{language.job}</VerticalText>
                     <VerticalText>{language.location}</VerticalText>
-                    <VerticalText><a href="https://github.com/JesseLeung97" target="_blank">{language.github}</a></VerticalText>
-                    <VerticalText><a href={`${window.location}about`}>{language.aboutMe}</a></VerticalText>
-                    <VerticalText><a href={`${window.location}resume`}>{language.resume}</a></VerticalText>
-                    <VerticalText><a href="mailto:jessetleung@gmail.com" target="_blank">{language.email}</a></VerticalText>
+                    <VerticalText><span onClick={() => goToPage("projects")}>{language.github}</span></VerticalText>
+                    <VerticalText><span onClick={() => goToPage("about")}>{language.aboutMe}</span></VerticalText>
+                    <VerticalText><span onClick={() => goToPage("resume")}>{language.resume}</span></VerticalText>
+                    <VerticalText><span onClick={() => goToPage("contact")}>{language.email}</span></VerticalText>
                 </div>
             </div>
         </section>

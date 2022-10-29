@@ -6,7 +6,7 @@
 .language_toggle {
     text-transform: uppercase;
     border-bottom: 1px solid #392E26;
-    transition: 0.2s all ease-out;
+    transition: 0.2s all;
     font-size: 14px;
 }
 .language_toggle:hover {

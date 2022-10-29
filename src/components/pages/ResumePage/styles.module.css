@@ -1,10 +1,20 @@
-.job_title_container {
-    text-transform: capitalize;
+.selected_jobs_title {
+    margin: 12px 0;
 }
-.job_title {
-    font-weight: 700;
-}
-.job_info_container {
+.resume_links_container {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    margin: 84px 0;
+}
+.resume_links_container > a {
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color 0.2s;
+    border-bottom: 1px solid #392E26;
+}
+.resume_links_container > a:hover {
+    color: #FF0044;
+    cursor: pointer;
+    border-bottom: 1px solid #FF0044;
 }

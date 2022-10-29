@@ -9,7 +9,7 @@
     "github": "projects",
     "resume": "resume",
     "aboutMe": "about",
-    "email": "email",
+    "email": "contact",
     "aboutTitle": "About",
     "aboutContent": [
         "My name is Jesse Leung.  I'm a Chinese American software engineer based out of Tokyo, Japan.  In my career I've designed and contributed to the core systems of numerous large scale projects including matchmaking websites and iOS games.  ",
@@ -28,19 +28,205 @@
                 "title": "selected projects",
                 "descriptions": [
                     {
-                        "title": "rhythm game (concept, prototype)",
+                        "title": "girls band cry (concept, prototype)",
                         "bullets": [
                             "Expertly designing and implementing input system, event manager, and score manager to calculate and broadcast information about score, tap timing, and other core game functionality.",
                             "Diligently designing and building the song layout functionality to visually represent a song’s Json data.",
                             "Carefully dapting a Midi to Json converter which translated song files from the audio team into game-usable data."
                         ],
-                        "techStack": "C#, Unity, UniRX, DOTween, .Net"
+                        "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
+                    },
+                    {
+                        "title": "otakon and sibling sites",
+                        "bullets": [
+                            "Designed and built a responsive, mobile friendly version of the admin dashboard to make emergency remote administration possible.",
+                            "Reduced the loading time of a heavy admin page by over 30s by identifying slow SQL queries then restructuring database tables and restructuring client-side to eliminate time wasted by waiting JavaScript.",
+                            "Wrote a script to convert user IDs and profile picture file names to random slugs to hide backend data from other users and make the site more secure."
+                        ],
+                        "techStack": ["Ruby on Rails", "JQuery", "PostgreSQL"]
+                    },
+                    {
+                        "title": "react application for aflac",
+                        "bullets": [
+                            "Developed responsive UI using the Atomic Components philosophy to ensure code and corresponding work was not repeated.",
+                            "Mentored coworkers who had not used React about React life cycles, component structure, and code styles.",
+                            "Integrated complex APIs using React Hooks in Functional Components"
+                        ],
+                        "techStack": ["React", "TypeScript", "Jest"]
                     }
                 ]
             }
         },
-        "education": "education",
-        "technicalSkills": "technical skills",
-        "personalProjects": "personal projects"
+        "education": {
+            "title": "education",
+            "schools": [
+                {
+                    "schoolName": "university of massachusetts amherst",
+                    "degree": "b.s. computational mathematics",
+                    "minor": "japanese",
+                    "date": "sep 2016 - aug 2020",
+                    "bullets": [
+                        "Member of the Commonwealth Honors College",
+                        "division 1 mens lacrosse (2016 - 2018)"
+                    ]
+                },
+                {
+                    "schoolName": "sophia university",
+                    "degree": "f.l.a. exchange student",
+                    "minor": "",
+                    "date": "sep 2019 - mar 2020",
+                    "bullets": []
+                },
+                {
+                    "schoolName": "temple university japan campus",
+                    "degree": "exchange student",
+                    "minor": "",
+                    "date": "may 2018 - aug 2018",
+                    "bullets": []
+                }
+            ]
+        },
+        "technicalSkills": {
+            "title": "technical skills",
+            "skills": [
+                {
+                    "skillName": "languages",
+                    "skills": ["C#", "TypeScript", "JavaScript", "Ruby", "Rust", "Python", "HTML", "CSS"]
+                },
+                {
+                    "skillName": "frameworks",
+                    "skills": ["Unity", "React", "Preact", "NodeJS", "Ruby on Rails", "Gatsby"]
+                },
+                {
+                    "skillName": "tooling",
+                    "skills": ["UniRX", "DOTween", "AWS (S3, Route53, CloudFront)", "JQuery", "Webpack", "Vite", "Jest"]
+                },
+                {
+                    "skillName": "databases",
+                    "skills": ["PostgreSQL", "FireBase"]
+                },
+                {
+                    "skillName": "other",
+                    "skills": ["Sketch", "Figma"]
+                }
+            ]
+        },
+        "personalProjects": {
+            "title": "personal projects",
+            "descriptions": [
+                {
+                    "title": "endureandsurvive.io",
+                    "link": "https://endureandsurvive.io",
+                    "bullets": [
+                        "A small single page application to countdown to the release of The Last of Us hosted on AWS."
+                    ],
+                    "techStack": ["Preact", "TypeScript", "Vite", "AWS"]
+                },
+                {
+                    "title": "gatsbycsstypes",
+                    "link": "https://www.npmjs.com/package/gatsbycsstypes",
+                    "bullets": [
+                        "An npm package to continuously find, parse, then generate TypeScript definition files for CSS Modules when using Gatsby JS."
+                    ],
+                    "techStack": ["TypeScript", "NodeJS", "npm"]
+                }
+            ]
+        }
+    },
+    "projectsPage": {
+        "summary": "A selection of some of the personal and professional projects I have contributed to.",
+        "personal": {
+            "title": "personal projects",
+            "descriptions": [
+                {
+                    "title": "endureandsurvive.io",
+                    "link": "https://endureandsurvive.io",
+                    "bullets": [
+                        "A small single page application to countdown to the release of The Last of Us hosted on AWS."
+                    ],
+                    "techStack": ["Preact", "TypeScript", "Vite", "AWS"]
+                },
+                {
+                    "title": "locality sensitive hashing in Rust",
+                    "link": "https://github.com/JesseLeung97/lsh",
+                    "bullets": [
+                        "An implementation of locality sensitive hashing in Rust.  Designed to find a number of likely matches between user profiles on matchmaking services."
+                    ],
+                    "techStack": ["Rust"]
+                },
+                {
+                    "title": "current events shown through ai generated art",
+                    "link": "https://github.com/JesseLeung97/keyword-collector",
+                    "bullets": [
+                        "Abstract AI generated by prompts written using Markov chains fed by a collection of recent news headlines and trending hashtags."
+                    ],
+                    "techStack": ["Python, TypeScript, Stable Diffusion, Markov Chains"]
+                },
+                {
+                    "title": "gatsbycsstypes",
+                    "link": "https://www.npmjs.com/package/gatsbycsstypes",
+                    "bullets": [
+                        "An npm package to continuously find, parse, then generate TypeScript definition files for CSS Modules when using Gatsby JS."
+                    ],
+                    "techStack": ["TypeScript", "NodeJS", "npm"]
+                },
+                {
+                    "title": "jesska.io",
+                    "link": "https://jesska.io",
+                    "bullets": [
+                        "A dynamically routed and updated single page application built with React to showcase the Jesska series of comics. "
+                    ],
+                    "techStack": ["React", "TypeScript", "FireBase"]
+                }
+            ]
+        },
+        "work": {
+            "title": "work related projects",
+            "descriptions": [
+                {
+                    "title": "girls band cry (concept, prototype)",
+                    "bullets": [
+                        "A concept and prototype for an upcoming rhythm rpg game built in C# and Unity."
+                    ],
+                    "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
+                },
+                {
+                    "title": "otakon and sibling sites",
+                    "bullets": [
+                        "A family of niche matchmaking services built in Ruby and Rails and hosted on AWS."
+                    ],
+                    "techStack": ["Ruby on Rails", "JQuery", "PostgreSQL"]
+                },
+                {
+                    "title": "react application for aflac",
+                    "bullets": [
+                        "A suite of complex forms built with React and TypeScript and structured following atomic design patterns."
+                    ],
+                    "techStack": ["React", "TypeScript", "Jest"]
+                },
+                {
+                    "title": "gundam: iron blooded orphans",
+                    "bullets": [
+                        "A recently released iOS rpg, gacha, and battle game built in C# and Unity associated with a spinoff anime series."
+                    ],
+                    "techStack": ["C#", "Unity", "UniRX", "DOTween", "MessagePack"]
+                },
+                {
+                    "title": "rakugaki",
+                    "bullets": [
+                        "An iOS game built in C# and Unity which allows players to draw their own characters and then level them up through a series of battles."
+                    ],
+                    "techStack": ["C#", "Unity", "UniRX", "DOTween", "MessagePack"]
+                }
+            ]
+        }
+    },
+    "contactPage": {
+        "title": "contact",
+        "form": {
+            "email": "email",
+            "message": "message",
+            "submit": "send"
+        }
     }
 }

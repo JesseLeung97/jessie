@@ -29,14 +29,75 @@ export type TTranslation = {
                     {
                         title: string,
                         bullets: string[],
-                        techStack: string
+                        techStack: string[]
                     }
                 ]
             }
         },
-        education: string,
-        technicalSkills: string,
-        personalProjects: string
+        education: {
+            title: string,
+            schools: [
+                {
+                    schoolName: string,
+                    degree: string,
+                    minor: string,
+                    date: string,
+                    bullets: string[]
+                }
+            ]
+        },
+        technicalSkills: {
+            title: string,
+            skills: [
+                {
+                    skillName: string,
+                    skills: string[]
+                }
+            ]
+        },
+        personalProjects: {
+            title: string,
+            descriptions: [
+                {
+                    title: string,
+                    link: string,
+                    bullets: string[],
+                    techStack: string[]
+                }
+            ]
+        }
+    },
+    projectsPage: {
+        summary: string,
+        personal: {
+            title: string,
+            descriptions: [
+                {
+                    title: string,
+                    link: string,
+                    bullets: string[],
+                    techStack: string[]
+                }
+            ]
+        },
+        work: {
+            title: string,
+            descriptions: [
+                {
+                    title: string,
+                    bullets: string[],
+                    techStack: string[]
+                }
+            ]
+        } 
+    },
+    contactPage: {
+        title: string,
+        form: {
+            email: string,
+            message: string,
+            submit: string
+        }
     }
 }  
 

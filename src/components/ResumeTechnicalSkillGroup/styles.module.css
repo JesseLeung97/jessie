@@ -1,0 +1,10 @@
+.skill_title {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.skill {
+    margin: 6px 0 12px 0;
+}
+.skills_list {
+    font-weight: 400;
+}

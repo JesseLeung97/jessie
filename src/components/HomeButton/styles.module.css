@@ -8,7 +8,7 @@
     text-transform: uppercase;
     border-bottom: 1px solid #392E26;
     font-weight: 700;
-    transition: all 0.2s ease-out;
+    transition: all 0.2s;
 }
 .home_button:hover {
     color: #FF0044;

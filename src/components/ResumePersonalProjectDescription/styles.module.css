@@ -11,7 +11,13 @@
 .job_desc_title {
     margin: 12px 0 6px 0;
     font-weight: 700;
-    text-transform: capitalize;
+}
+.job_desc_title > a {
+    transition: color 0.2s;
+}
+.job_desc_title > a:hover {
+    color: #FF0044;
+    cursor: pointer;
 }
 .tech_stack_title {
     text-transform: capitalize;

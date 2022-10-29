@@ -1,5 +1,4 @@
 .vertical_text_inner {
-    color: #392E26;
     text-orientation: upright;
     writing-mode: vertical-lr;
     font-weight: 700;
@@ -7,13 +6,13 @@
     letter-spacing: 2px;
     cursor: default;
 }
-.vertical_text_inner > a {
-    transition: color 0.2s ease-out;
+.vertical_text_inner > span {
+    transition: color 0.2s;
 }
 .is_red {
     color: #FF0044;
 }
-.vertical_text_inner:hover > a {
+.vertical_text_inner:hover > span {
     color: #FF0044;
     cursor: pointer;
 }
