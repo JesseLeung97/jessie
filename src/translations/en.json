@@ -32,7 +32,7 @@
                         "bullets": [
                             "Expertly designing and implementing input system, event manager, and score manager to calculate and broadcast information about score, tap timing, and other core game functionality.",
                             "Diligently designing and building the song layout functionality to visually represent a song’s Json data.",
-                            "Carefully dapting a Midi to Json converter which translated song files from the audio team into game-usable data."
+                            "Carefully adapting a Midi to Json converter which translated song files from the audio team into game-usable data."
                         ],
                         "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
                     },
@@ -223,6 +223,21 @@
     },
     "contactPage": {
         "title": "contact",
+        "subtitle": {
+            "part_1": "You can find me on ",
+            "part_2": "and ",
+            "part_3": ".  Or, you can reach me through email."
+        },
+        "links": {
+            "linkedIn": {
+                "name": "LinkedIn ",
+                "link": "https://linkedin.com/in/JesseLeung97"
+            },
+            "github": {
+                "name": "GitHub",
+                "link": "https://github.com/JesseLeung97"
+            }
+        },
         "form": {
             "email": "email",
             "message": "message",

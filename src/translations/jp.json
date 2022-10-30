@@ -155,6 +155,21 @@
     },
     "contactPage": {
         "title": "contact",
+        "subtitle": {
+            "part_1": "You can find me on",
+            "part_2": "and",
+            "part_3": ".  Or, you can reach me through email."
+        },
+        "links": {
+            "linkedIn": {
+                "name": "LinkedIn",
+                "link": "https://linkedin.com/in/JesseLeung97"
+            },
+            "github": {
+                "name": "GitHub",
+                "link": "https://github.com/JesseLeung97"
+            }
+        },
         "form": {
             "email": "email",
             "message": "message",

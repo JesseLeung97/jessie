@@ -93,6 +93,21 @@ export type TTranslation = {
     },
     contactPage: {
         title: string,
+        subtitle: {
+            part_1: string,
+            part_2: string,
+            part_3: string
+        },
+        links: {
+            linkedIn: {
+                name: string,
+                link: string
+            },
+            github: {
+                name: string,
+                link: string
+            }
+        }
         form: {
             email: string,
             message: string,
