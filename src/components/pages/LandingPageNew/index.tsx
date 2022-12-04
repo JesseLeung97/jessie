@@ -1,12 +1,14 @@
+import classes from "./styles.module.css";
 import { TokyoScape } from "../../../assets/images/TokyoScape";
 import { VerticalText } from "../../VerticalText";
-import classes from "./styles.module.css";
 import { useLocation } from "wouter/preact";
 import { useLanguage } from "../../LanguageManager";
-import { ContentWrapper } from "../../ContentWrapper";
+import { BostonScape } from "../../../assets/images/BostonScape";
+import { usePageTransition } from "../../PageTransition";
 
 const LandingPageNew = () => {
-    const { language } = useLanguage();
+    const { language, headLanguage } = useLanguage();
+    const { changePage } = usePageTransition();
     const [ location ] = useLocation();
     if (location !== "/") return null;
 
@@ -17,16 +19,20 @@ const LandingPageNew = () => {
     return (
         <section class={classes.body_container}>
             <div class={classes.main_content_container}>
-                <TokyoScape className={classes.tokyo_scape}/>
+                <div class={classes.cityscape_container}>
+                    <BostonScape className={`${classes.tokyo_scape} ${headLanguage === "jp" ? classes.tokyo_scape_hidden : ""}`}/>
+                    <TokyoScape className={`${classes.tokyo_scape} ${headLanguage === "en" ? classes.tokyo_scape_hidden : ""} ${classes.tokyo_scape_dummy}`}/>
+                    <TokyoScape className={`${classes.tokyo_scape_dummy}`}/>
+                </div>
                 <div class={classes.text_container}>
-                    <VerticalText isRed={true}>{language.firstName}</VerticalText>
-                    <VerticalText isRed={true}>{language.lastName}</VerticalText>
-                    <VerticalText>{language.job}</VerticalText>
-                    <VerticalText>{language.location}</VerticalText>
-                    <VerticalText><span onClick={() => goToPage("projects")}>{language.github}</span></VerticalText>
-                    <VerticalText><span onClick={() => goToPage("about")}>{language.aboutMe}</span></VerticalText>
-                    <VerticalText><span onClick={() => goToPage("resume")}>{language.resume}</span></VerticalText>
-                    <VerticalText><span onClick={() => goToPage("contact")}>{language.email}</span></VerticalText>
+                    <VerticalText isRed={true} text={language.firstName} />
+                    <VerticalText isRed={true} text={language.lastName} />
+                    <VerticalText text={language.job} />
+                    <VerticalText text={language.location} />
+                    <VerticalText text={language.github} onClick={() => changePage("projects")} />
+                    <VerticalText text={language.aboutMe} onClick={() => changePage("about")} />
+                    <VerticalText text={language.resume} onClick={() => changePage("resume")} />
+                    <VerticalText text={language.email} onClick={() => changePage("contact")} />
                 </div>
             </div>
         </section>

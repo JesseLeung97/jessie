@@ -13,9 +13,12 @@
     "aboutTitle": "About",
     "aboutContent": [
         "My name is Jesse Leung.  I'm a Chinese American software engineer based out of Tokyo, Japan.  In my career I've designed and contributed to the core systems of numerous large scale projects including matchmaking websites and iOS games.  ",
-        "I also love coding and enjoy building projects during my free time.  I'm currently learning both Rust and Python and using them to build a locality sensitive hashing algorithm and an automated art generator based on current events.  ",
+        "I love coding and enjoy building projects during my free time.  I'm currently learning both Rust and Python and using them to build an automated art generator based on current events.  ",
         "Outside of work, I love cycling, cooking, and playing with my poodle, Seulgi.  I'm always looking for new opportunities to grow as a software engineer.  If you have a code-y, math-y (or Rust based) project in mind, please reach out!"
     ],
+    "homePage": {
+        "title": "home"
+    },
     "resumePage": {
         "summary": "A deeply driven software engineer seeking to learn from experienced mentors, contribute to growing projects, and assume greater leadership responsibility within my team.",
         "experience": {
@@ -91,7 +94,7 @@
             "skills": [
                 {
                     "skillName": "languages",
-                    "skills": ["C#", "TypeScript", "JavaScript", "Ruby", "Rust", "Python", "HTML", "CSS"]
+                    "skills": ["C#", "TypeScript", "JavaScript", "Rust", "Python", "Ruby", "PHP", "HTML", "CSS"]
                 },
                 {
                     "skillName": "frameworks",
@@ -99,11 +102,11 @@
                 },
                 {
                     "skillName": "tooling",
-                    "skills": ["UniRX", "DOTween", "AWS (S3, Route53, CloudFront)", "JQuery", "Webpack", "Vite", "Jest"]
+                    "skills": ["UniRX", "DOTween", "AWS (S3, Route53, CloudFront, Lambda)", "Webpack", "Vite", "Jest", "JQuery"]
                 },
                 {
                     "skillName": "databases",
-                    "skills": ["PostgreSQL", "FireBase"]
+                    "skills": ["PostgreSQL", "FireBase", "MySQL", "Redis"]
                 },
                 {
                     "skillName": "other",
@@ -225,12 +228,12 @@
         "title": "contact",
         "subtitle": {
             "part_1": "You can find me on ",
-            "part_2": "and ",
+            "part_2": " and ",
             "part_3": ".  Or, you can reach me through email."
         },
         "links": {
             "linkedIn": {
-                "name": "LinkedIn ",
+                "name": "LinkedIn",
                 "link": "https://linkedin.com/in/JesseLeung97"
             },
             "github": {

@@ -3,8 +3,12 @@ import { useContext, useState, useLayoutEffect } from "preact/hooks";
 import { en, jp } from "./translation";
 import { TTranslation } from "./translation";
 
-type TLanguageContext = { language: TTranslation; toggleLanguage: () => void };
 type THeadLanguages = "en" | "jp";
+type TLanguageContext = { 
+    headLanguage: THeadLanguages,
+    language: TTranslation; 
+    toggleLanguage: () => void 
+};
 
 const LanguageContext = createContext<TLanguageContext>(
     {} as TLanguageContext
@@ -23,6 +27,7 @@ const LanguageManager: FunctionalComponent = ({ children }) => {
         const headLanguage: THeadLanguages = language === en ? "jp" : "en";
         document.documentElement.lang = headLanguage;
         setLanguage(language === en ? jp : en);
+        setHeadLanguage(headLanguage);
     }
 
     useLayoutEffect(() => {
@@ -37,7 +42,7 @@ const LanguageManager: FunctionalComponent = ({ children }) => {
     }, [browserLanguage]);
     
     return (
-        <LanguageContext.Provider value={{ language: language, toggleLanguage: switchLanguage }}>
+        <LanguageContext.Provider value={{ headLanguage: headLanguage, language: language, toggleLanguage: switchLanguage }}>
             { children }
         </LanguageContext.Provider>
     );

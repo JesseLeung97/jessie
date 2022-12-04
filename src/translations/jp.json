@@ -2,10 +2,10 @@
     "siteTitle": "リャン　ジェシー - エンジンエア",
     "changeLanguage": "english",
     "year": "2022",
-    "firstName": "リャン　ジェシー",
-    "lastName": "",
-    "job": "ソフトウェアエンジニア",
-    "location": "東京、日本",
+    "firstName": "リャン",
+    "lastName": "ジェシー",
+    "job": "エンジニア",
+    "location": "東京",
     "github": "ギットハブ",
     "resume": "履歴書",
     "aboutMe": "私は？",
@@ -14,6 +14,9 @@
     "aboutContent": [
         "東京在住、アメリカ出身のソフトウェアエンジニアです。今まで、婚活アプリやスマホ用のゲーム等、様々なプロジェクトに参加しました。仕事以外でも、Rustを学ぶことや知り合いの為にサイトを作ることが好きです。コードをしていない時は、サイクリングをしたり、料理をしたり、愛犬のスルギと遊んだりしています。ソフトウェアエンジニアとして常に成長できる機会を求めているので、コードに関してや、数学的なプロジェクトのアイディアがあれば、是非ご連絡ください！"
     ],
+    "homePage": {
+        "title": "home"
+    },
     "resumePage": {
         "summary": "",
         "experience": {
@@ -156,8 +159,8 @@
     "contactPage": {
         "title": "contact",
         "subtitle": {
-            "part_1": "You can find me on",
-            "part_2": "and",
+            "part_1": "You can find me on ",
+            "part_2": " and ",
             "part_3": ".  Or, you can reach me through email."
         },
         "links": {

@@ -15,6 +15,9 @@ export type TTranslation = {
     email: string,
     aboutTitle: string,
     aboutContent: string[],
+    homePage: {
+        title: string
+    },
     resumePage: {
         summary: string,
         experience: {

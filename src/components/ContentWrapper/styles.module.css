@@ -9,3 +9,9 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 768px) {
+    .content_wrapper {
+        width: 90%;
+    }
+}

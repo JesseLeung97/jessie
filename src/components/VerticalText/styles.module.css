@@ -1,18 +1,21 @@
+.vertical_text_inner:lang(jp) {
+    letter-spacing: 14px;
+}
+.vertical_text_inner:lang(en) {
+    letter-spacing: 2px;
+}
 .vertical_text_inner {
     text-orientation: upright;
     writing-mode: vertical-lr;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: default;
-}
-.vertical_text_inner > span {
     transition: color 0.2s;
+    cursor: default;
 }
 .is_red {
     color: #FF0044;
 }
-.vertical_text_inner:hover > span {
+.is_link:hover {
     color: #FF0044;
     cursor: pointer;
 }
