@@ -12,8 +12,8 @@
     "email": "contact",
     "aboutTitle": "About",
     "aboutContent": [
-        "My name is Jesse Leung.  I'm a Chinese American software engineer based out of Tokyo, Japan.  In my career I've designed and contributed to the core systems of numerous large scale projects including matchmaking websites and iOS games.  ",
-        "I love coding and enjoy building projects during my free time.  I'm currently learning both Rust and Python and using them to build an automated art generator based on current events.  ",
+        "My name is Jesse Leung.  I'm a Chinese American software engineer currently living in Tokyo, Japan.  In my career I've designed and contributed to the core systems of numerous large scale projects including high traffic forums, matchmaking websites, and iOS games.  ",
+        "I love coding and enjoy building projects during my free time.  ",
         "Outside of work, I love cycling, cooking, and playing with my poodle, Seulgi.  I'm always looking for new opportunities to grow as a software engineer.  If you have a code-y, math-y (or Rust based) project in mind, please reach out!"
     ],
     "homePage": {
@@ -31,6 +31,15 @@
                 "title": "selected projects",
                 "descriptions": [
                     {
+                        "title": "Konfused",
+                        "bullets": [
+                            "Architected and built a performant rest API to be easily testable and expandable in the future.",
+                            "Designed and implemented a modern frontend service to allow users to quickly find answers to their questions.",
+                            "Wireframed and mapped the functionality of the application and outlined and implementation plan and tech stack."
+                        ],
+                        "techStack": ["Go", "TypeScript", "Gin-Gonic", "Sveltekit", "PostgreSQL", "Redis"]
+                    },
+                    {
                         "title": "girls band cry (concept, prototype)",
                         "bullets": [
                             "Expertly designing and implementing input system, event manager, and score manager to calculate and broadcast information about score, tap timing, and other core game functionality.",
@@ -40,6 +49,15 @@
                         "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
                     },
                     {
+                        "title": "Muvluv",
+                        "bullets": [
+                            "Implemented performant server functionality for a new event section of the game.",
+                            "Refactored gacha server logic to improve readability, performance, and allow for easy modification of drop rates.",
+                            "Implemented client side game logic and UI to for in game events."
+                        ],
+                        "techStack": ["Php", "C#", "Redis", "Slim", "Unity"]
+                    },
+                    {
                         "title": "otakon and sibling sites",
                         "bullets": [
                             "Designed and built a responsive, mobile friendly version of the admin dashboard to make emergency remote administration possible.",
@@ -47,15 +65,6 @@
                             "Wrote a script to convert user IDs and profile picture file names to random slugs to hide backend data from other users and make the site more secure."
                         ],
                         "techStack": ["Ruby on Rails", "JQuery", "PostgreSQL"]
-                    },
-                    {
-                        "title": "react application for aflac",
-                        "bullets": [
-                            "Developed responsive UI using the Atomic Components philosophy to ensure code and corresponding work was not repeated.",
-                            "Mentored coworkers who had not used React about React life cycles, component structure, and code styles.",
-                            "Integrated complex APIs using React Hooks in Functional Components"
-                        ],
-                        "techStack": ["React", "TypeScript", "Jest"]
                     }
                 ]
             }
@@ -94,11 +103,11 @@
             "skills": [
                 {
                     "skillName": "languages",
-                    "skills": ["C#", "TypeScript", "JavaScript", "Rust", "Python", "Ruby", "PHP", "HTML", "CSS"]
+                    "skills": ["Rust", "Go", "C#", "TypeScript", "JavaScript", "Php", "Python", "Ruby", "HTML", "CSS"]
                 },
                 {
                     "skillName": "frameworks",
-                    "skills": ["Unity", "React", "Preact", "NodeJS", "Ruby on Rails", "Gatsby"]
+                    "skills": ["Gin-Gonic", "Axum", "React", "Unity", "Sveltekit", "Preact", "NodeJS", "Ruby on Rails", "Gatsby"]
                 },
                 {
                     "skillName": "tooling",
@@ -110,7 +119,7 @@
                 },
                 {
                     "skillName": "other",
-                    "skills": ["Sketch", "Figma"]
+                    "skills": ["Sketch", "Figma", "Neovim"]
                 }
             ]
         },
@@ -137,7 +146,7 @@
         }
     },
     "projectsPage": {
-        "summary": "A selection of some of the personal and professional projects I have contributed to.",
+        "summary": "A selection of projects I've worked on in my free time.",
         "personal": {
             "title": "personal projects",
             "descriptions": [
@@ -150,20 +159,20 @@
                     "techStack": ["Preact", "TypeScript", "Vite", "AWS"]
                 },
                 {
+                    "title": "Slack-translate",
+                    "link": "https://github.com/JesseLeung97/slack-translate",
+                    "bullets": [
+                        "A slack service to translate messages using DeepL to improve communication within my international team."
+                    ],
+                    "techStack": ["Rust", "Docker", "SQLite", "Redis"]
+                },
+                {
                     "title": "locality sensitive hashing in Rust",
                     "link": "https://github.com/JesseLeung97/lsh",
                     "bullets": [
                         "An implementation of locality sensitive hashing in Rust.  Designed to find a number of likely matches between user profiles on matchmaking services."
                     ],
                     "techStack": ["Rust"]
-                },
-                {
-                    "title": "current events shown through ai generated art",
-                    "link": "https://github.com/JesseLeung97/keyword-collector",
-                    "bullets": [
-                        "Abstract AI generated by prompts written using Markov chains fed by a collection of recent news headlines and trending hashtags."
-                    ],
-                    "techStack": ["Python, TypeScript, Stable Diffusion, Markov Chains"]
                 },
                 {
                     "title": "gatsbycsstypes",
@@ -180,46 +189,6 @@
                         "A dynamically routed and updated single page application built with React to showcase the Jesska series of comics. "
                     ],
                     "techStack": ["React", "TypeScript", "FireBase"]
-                }
-            ]
-        },
-        "work": {
-            "title": "work related projects",
-            "descriptions": [
-                {
-                    "title": "girls band cry (concept, prototype)",
-                    "bullets": [
-                        "A concept and prototype for an upcoming rhythm rpg game built in C# and Unity."
-                    ],
-                    "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
-                },
-                {
-                    "title": "otakon and sibling sites",
-                    "bullets": [
-                        "A family of niche matchmaking services built in Ruby and Rails and hosted on AWS."
-                    ],
-                    "techStack": ["Ruby on Rails", "JQuery", "PostgreSQL"]
-                },
-                {
-                    "title": "react application for aflac",
-                    "bullets": [
-                        "A suite of complex forms built with React and TypeScript and structured following atomic design patterns."
-                    ],
-                    "techStack": ["React", "TypeScript", "Jest"]
-                },
-                {
-                    "title": "gundam: iron blooded orphans",
-                    "bullets": [
-                        "A recently released iOS rpg, gacha, and battle game built in C# and Unity associated with a spinoff anime series."
-                    ],
-                    "techStack": ["C#", "Unity", "UniRX", "DOTween", "MessagePack"]
-                },
-                {
-                    "title": "rakugaki",
-                    "bullets": [
-                        "An iOS game built in C# and Unity which allows players to draw their own characters and then level them up through a series of battles."
-                    ],
-                    "techStack": ["C#", "Unity", "UniRX", "DOTween", "MessagePack"]
                 }
             ]
         }

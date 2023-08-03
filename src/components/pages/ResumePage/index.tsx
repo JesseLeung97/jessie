@@ -7,7 +7,6 @@ import { ResumeProjectDescription } from "../../ResumeProjectDescription";
 import { ResumeSectionSubtitle } from "../../ResumeSectionSubtitle";
 import { ResumeSectionTitle } from "../../ResumeSectionTitle";
 import { ResumeTechnicalSkillGroup } from "../../ResumeTechnicalSkillGroup";
-import { ResumePersonalProjectDescription } from "../../ResumePersonalProjectDescription";
 import classes from "./styles.module.css";
 
 
@@ -21,6 +20,15 @@ const ResumePage = () => {
             <section>
                 <PageTitle title={`${language.firstName} ${language.lastName}`} />
                 <p>{language.resumePage.summary}</p>
+                <ResumeSectionTitle title={language.resumePage.technicalSkills.title} />
+                { language.resumePage.technicalSkills.skills.map(skill => {
+                        return (
+                                <ResumeTechnicalSkillGroup 
+                                category={skill.skillName}
+                                skills={skill.skills}
+                                />
+                               );
+                        })}
                 <ResumeSectionTitle title={language.resumePage.experience.title} />
                 <ResumeSectionSubtitle 
                     title={language.resumePage.experience.jobTitle}
@@ -46,28 +54,8 @@ const ResumePage = () => {
                         />
                     );
                 })}
-                <ResumeSectionTitle title={language.resumePage.technicalSkills.title} />
-                { language.resumePage.technicalSkills.skills.map(skill => {
-                    return (
-                        <ResumeTechnicalSkillGroup 
-                            category={skill.skillName}
-                            skills={skill.skills}
-                        />
-                    );
-                })}
-                <ResumeSectionTitle title={language.resumePage.personalProjects.title} />
-                { language.resumePage.personalProjects.descriptions.map(desc => {
-                    return (
-                        <ResumePersonalProjectDescription 
-                            title={desc.title}
-                            link={desc.link}
-                            bullets={desc.bullets}
-                            techStack={desc.techStack}
-                        />
-                    );
-                })}
                 <div class={classes.resume_links_container}>
-                    <a target="_blank" href={"../../../../public/JesseLeung_Resume_2022.pdf"}>pdf</a>
+                    <a target="_blank" href={"/public/JesseLeung_Resume.pdf"}>pdf</a>
                 </div>
                 <HomeButton />
             </section>
