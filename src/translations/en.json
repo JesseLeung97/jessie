@@ -191,6 +191,39 @@
                     "techStack": ["React", "TypeScript", "FireBase"]
                 }
             ]
+        },
+        "work": {
+            "title": "professional projects",
+            "descriptions": [
+                {
+                    "title": "girls band cry (concept, prototype)",
+                    "bullets": [
+                        "A concept and prototype for an upcoming rhythm rpg game built in C# and Unity."
+                    ],
+                    "techStack": ["C#", "Unity", "UniRX", "DOTween", ".Net"]
+                },
+                {
+                    "title": "otakon and sibling sites",
+                    "bullets": [
+                        "A family of niche matchmaking services built in Ruby and Rails and hosted on AWS."
+                    ],
+                    "techStack": ["Ruby on Rails", "JQuery", "PostgreSQL"]
+                },
+                {
+                    "title": "react application for aflac",
+                    "bullets": [
+                        "A suite of complex forms built with React and TypeScript and structured following atomic design patterns."
+                    ],
+                    "techStack": ["React", "TypeScript", "Jest"]
+                },
+                {
+                    "title": "gundam: iron blooded orphans",
+                    "bullets": [
+                        "A recently released iOS rpg, gacha, and battle game built in C# and Unity."
+                    ],
+                    "techStack": ["C#", "Unity", "UniRX", "DOTween", "MessagePack"]
+                }
+            ]
         }
     },
     "contactPage": {

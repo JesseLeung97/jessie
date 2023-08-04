@@ -12,10 +12,6 @@ const LandingPageNew = () => {
     const [ location ] = useLocation();
     if (location !== "/") return null;
 
-    const goToPage = (pageName: string) => {
-        window.history.pushState({}, "", `/${pageName}`);
-    }
-
     return (
         <section class={classes.body_container}>
             <div class={classes.main_content_container}>

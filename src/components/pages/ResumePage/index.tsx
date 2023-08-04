@@ -1,3 +1,4 @@
+import { usePageTransition } from "../../PageTransition";
 import { useLocation } from "wouter/preact";
 import { ContentWrapper } from "../../ContentWrapper";
 import { HomeButton } from "../../HomeButton";
@@ -13,6 +14,7 @@ import classes from "./styles.module.css";
 const ResumePage = () => {
     const { language } = useLanguage();
     const [ location ] = useLocation();
+    const { changePage } = usePageTransition();
     if(location !== "/resume") return null;
 
     return (
@@ -55,7 +57,12 @@ const ResumePage = () => {
                     );
                 })}
                 <div class={classes.resume_links_container}>
-                    <a target="_blank" href={"/JesseLeung_Resume.pdf"}>pdf</a>
+                    <div class={classes.resume_links_container_button_container}>
+                        <span class={classes.resume_links_container_button} onClick={() => changePage("projects")}>{language.projectsPage.personal.title}</span>
+                    </div>
+                    <div class={classes.resume_links_container_button_container}>
+                        <a class={classes.resume_links_container_button} target="_blank" href={"/JesseLeung_Resume.pdf"}>pdf</a>
+                    </div>
                 </div>
                 <HomeButton />
             </section>

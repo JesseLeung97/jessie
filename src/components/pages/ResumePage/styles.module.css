@@ -18,3 +18,20 @@
     cursor: pointer;
     border-bottom: 1px solid #FF0044;
 }
+.resume_links_container_button {
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: color 0.2s;
+    border-bottom: 1px solid #392E26;
+}
+.resume_links_container_button:hover {
+    color: #FF0044;
+    cursor: pointer;
+    border-bottom: 1px solid #FF0044;
+}
+.resume_links_container_button_container {
+    flex: 1;
+    text-align: center;
+}
