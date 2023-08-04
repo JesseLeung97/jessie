@@ -55,7 +55,7 @@ const ResumePage = () => {
                     );
                 })}
                 <div class={classes.resume_links_container}>
-                    <a target="_blank" href={"/public/JesseLeung_Resume.pdf"}>pdf</a>
+                    <a target="_blank" href={"/JesseLeung_Resume.pdf"}>pdf</a>
                 </div>
                 <HomeButton />
             </section>
