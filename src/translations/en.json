@@ -20,7 +20,7 @@
         "title": "home"
     },
     "resumePage": {
-        "summary": "A deeply driven software engineer seeking to learn from experienced mentors, contribute to growing projects, and assume greater leadership responsibility within my team.",
+        "summary": "An skilled software engineer with experience in fullstack web development, game development, and mentoring junior team members.",
         "experience": {
             "title": "experience",
             "jobTitle": "software engineer",
@@ -30,6 +30,14 @@
             "projects": {
                 "title": "selected projects",
                 "descriptions": [
+                    {
+                        "title": "Toresaka",
+                        "bullets": [
+                            "Designed and implemented a tutorial management system, gacha system, and other game systems while maintaining code organization and ease of expansion",
+                            "Conducted code reviews for team members and ensured code corectness, a uniform code style, and best practices to ensure the longevity and ease of development of the codebase."
+                        ],
+                        "techStack": ["TypeScript", "React", "Redux", "PHP", "Rust", "MySQL"]
+                    },
                     {
                         "title": "Konfused",
                         "bullets": [
@@ -51,7 +59,7 @@
                     {
                         "title": "Muvluv",
                         "bullets": [
-                            "Implemented performant server functionality for a new event section of the game.",
+                            "Implemented performant server functionality and designed API endpoints for a new event section of the game.",
                             "Refactored gacha server logic to improve readability, performance, and allow for easy modification of drop rates.",
                             "Implemented client side game logic and UI to for in game events."
                         ],
@@ -107,11 +115,11 @@
                 },
                 {
                     "skillName": "frameworks",
-                    "skills": ["Gin-Gonic", "Axum", "React", "Unity", "Sveltekit", "Preact", "NodeJS", "Ruby on Rails", "Gatsby"]
+                    "skills": ["Gin-Gonic", "Axum", "React", "Unity", "NextJS", "Preact", "NodeJS", "Ruby on Rails", "Gatsby"]
                 },
                 {
                     "skillName": "tooling",
-                    "skills": ["UniRX", "DOTween", "AWS (S3, Route53, CloudFront, Lambda)", "Webpack", "Vite", "Jest", "JQuery"]
+                    "skills": ["UniRX", "DOTween", "AWS (S3, Route53, CloudFront, Lambda)", "Redux", "Webpack", "Vite", "Jest", "JQuery"]
                 },
                 {
                     "skillName": "databases",
